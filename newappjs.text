@@ -1,0 +1,27 @@
+import React from 'react';
+import './App.css';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+
+// Here I am importing Amplify from node modules...
+import Amplify from 'aws-amplify';
+// Here I am creating a Variable called awsConfig that is a collection of all aws info needed for the app from aws-exports, these include relational keys for your app to communicate with aws server...
+import awsConfig from './aws-exports';
+
+// This command is comes from the imported Amplify, and your setting the configuration with the aws-exports Variable
+Amplify.configure(awsConfig);
+
+//This will be your new app.js. Reload after saving and you will see your new log in which the CSS can be changed
+
+function App() {
+  return (
+   
+      <Router>
+       
+      </Router>
+  
+  );
+}
+
+// We are exporting app with the authenicator set with your configuration
+export default withAuthenticator(App);
+
