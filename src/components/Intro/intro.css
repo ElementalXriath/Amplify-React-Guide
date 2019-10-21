@@ -1,0 +1,13 @@
+.high {
+    color: purple;
+    font-weight: bolder;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.fonted {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+}
