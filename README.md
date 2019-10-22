@@ -6,13 +6,12 @@ Just clone this project , open in your code editor and run npm install to downlo
 
 This is for front end React developers looking to build cutting edge quailty full stack projects. It can also be for developers looking to learn how to use AWS using a hands on approach. 
 
-What is AWS ?
+## What is AWS ?
 Amazon Web Services (AWS) is a bundled remote computing service that provides cloud computing infrastructure over the Internet with storage, bandwidth and customized support for application programming interfaces (API).
 
-What is Amplify?
+## What is Amplify?
 AWS Amplify. AWS Amplify is an open source JavaScript library provided by Amazon Web Services ( AWS) that enables developers to build applications with cloud services on web or mobile platforms. AWS Amplify aims to both enable apps to scale via cloud services and accelerate them to production.
 
-Keep a lookout for my upcoming React Bootstrap tutorial.
 
 ### `Clone and Run NPM I`
 
