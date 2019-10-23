@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Card, BSmall, Blockquote , Button, Alert } from 'bootstrap-4-react';
 import { Link } from 'react-router-dom';
 import './intro.css';
-import { FaAws, FaReact } from "react-icons/fa";
+import { FaAws, FaReact, FaNodeJs } from "react-icons/fa";
 
 export default class App extends Component {
   render() {
@@ -49,7 +49,7 @@ export default class App extends Component {
               </Card.Text>
             </Card.Body>
             <Card.Footer>
-              <Card.Text><BSmall text="success"><Button secondary sm active as="a" href="https://nodejs.org/en/">Download Node</Button></BSmall></Card.Text>
+              <Card.Text><BSmall text="success"><Button secondary sm active as="a" href="https://nodejs.org/en/">Download Node <FaNodeJs/></Button></BSmall></Card.Text>
             </Card.Footer>
           </Card>
           <Card shadow p="3" mb="5" bg="light">
