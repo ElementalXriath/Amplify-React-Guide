@@ -17,7 +17,7 @@ export default class App extends Component {
             After you have installed the prerequisite CLIs for AWS and AMPLIFY open a new terminal in your project. Make sure you are logged into your AWS account with your browser open. Open your project in your code editor and open a new terminal. Enter the command below. This is configuring the AWS CLI with your account information. 
                 <br/>
                 <hr/>
-                <h3 success><span className="high fonted">From your projects root folder in terminal run :</span> amplify configure</h3>
+                <h3 success className="type"><span className="high fonted">From your projects root folder in terminal run :</span> amplify configure</h3>
                 <hr/>
                 After a few seconds it will prompt you to input some information and will automatically redirect you to AWS Dashboard in your browser. Select default as the user for the first question in your terminal after using AWS configure. This is the default user (you) that can now be used in all future AMPLIFY projects. The data is saved inside of your device meaning this will only be done once for this an any future projects. Once this is complete your ready to Amplify your project. 
             </Card.Text>

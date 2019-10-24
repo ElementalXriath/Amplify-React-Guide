@@ -1,3 +1,7 @@
 .high {
     color: purple;
 }
+
+.type {
+    font-family: 'Share Tech Mono', monospace;
+}

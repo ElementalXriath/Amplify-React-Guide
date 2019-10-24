@@ -16,7 +16,7 @@ export default class App extends Component {
                After you have successfully created a AWS Account and Configured your CLI with the correct information you can now access AWS from your terminal in any project. So open a new terminal inside of the project root folder and follow the command below.
                 <br/>
                 <hr/>
-                <h3 success><span className="high fonted">From your projects root folder in terminal run :</span>  amplify init</h3>
+                <h3 success className="type"><span className="high fonted">From your projects root folder in terminal run :</span>  amplify init</h3>
                 <Card mb="2">
                     <Card.Header>You will be prompted to answer these questions in the terminal.</Card.Header>
                     <ListGroup flush>
