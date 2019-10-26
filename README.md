@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Trying to keep this short and simple as possible. It is a quick, hands on tutorial on using Amplify and AWS with React JS.
+Trying to keep this short and simple yet productive as possible. This 6 step guide gives the basic skills to build full stack and a extremely solid starting concept for you to contiune learning on your own. It is a quick, hands on tutorial on using Amplify and AWS with React JS starting from a blank react project.
 
 ## Step by Step instuctions for using Amzon Web Services Amplify with React Js
 
