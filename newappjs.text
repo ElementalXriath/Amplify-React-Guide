@@ -1,7 +1,9 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Stepfour from './components/Step4/index';
 import Stepfive from './components/Step5/index';
+import Stepsix from './components/Step6/index';
 
 // Here I am import a function called withAuthenticator from the aws-amplify-react dependacy
 import { withAuthenticator } from 'aws-amplify-react';
@@ -11,20 +13,22 @@ import Amplify from 'aws-amplify';
 
 // Here I am creating a Variable called awsConfig that is a collection of all aws info needed for the app from aws-exports, these include relational keys for your app to communicate with aws server...
 import awsConfig from './aws-exports';
+import { formContainer } from '@aws-amplify/ui';
 
-// This command is comes from the imported Amplify, and your setting the configuration with the aws-exports Variable
+// This command is comes from the imported Amplify, and your setting the configuration with the aws-exports Variable...
 Amplify.configure(awsConfig);
 
-//This will be your new app.js. Reload after saving and you will see your new log in which the CSS can be changed
+//This will be your new app.js. Reload after saving and you will see your new log in which the CSS can be changed, Step four would be your new main entry point...
 
 function App() {
   return (
       <Router>
-       <Route path='/' exact component={Stepfive} />
+       <Route path='/' exact component={Stepfour} />
+       <Route path='/stepfive' exact component={Stepfive} />
+       <Route path='/stepsix' exact component={Stepsix} />
       </Router>
   );
 }
 
-// We are exporting app with the authenicator set with your configuration, notice in your package.json I have installed aws-amplify and aws-amplify-react
+// We are exporting app with the authenicator set with your configuration, notice in your package.json I have installed aws-amplify and aws-amplify-react...
 export default withAuthenticator(App);
-

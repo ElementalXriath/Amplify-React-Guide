@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+
 import Intro from './components/Intro';
 import StepOne from './components/Step1/index';
 import StepTwo from './components/Step2/index';
@@ -22,3 +23,4 @@ function App() {
 }
 
 export default App;
+

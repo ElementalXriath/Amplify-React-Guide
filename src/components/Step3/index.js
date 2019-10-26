@@ -11,7 +11,7 @@ export default class App extends Component {
             <Card.Header><span className="h3 text-success fonted">Step 3 : Add AWS Authenication to your project.</span></Card.Header>
             <Card.Body>
             <Card.Title>Using your first AWS | <span className="fonted">Cognito</span></Card.Title>
-            <Card>
+            <Card shadow>
               <Card.Body>
                 <Card.Title>What is Cognito</Card.Title>
                 <Card.Text>
@@ -24,7 +24,7 @@ export default class App extends Component {
                Now its time to start using the web services for your project. First were going to add a very advance Authenication to your project by using <span className="text-warning fonted">Cognito</span>.
                 <br/>
                 <hr/>
-                <h3 success className="type"><span className="high fonted">From your project's root folder in terminal run :</span> amplify add auth</h3>
+                <h3 success className="type"><span className="high fonted">From your project's root folder in terminal run :</span>amplify add auth</h3>
                 <Card mb="2">
                     <Card.Header>You will be prompted to answer these questions in the terminal.</Card.Header>
                     <ListGroup flush>
@@ -53,7 +53,8 @@ export default class App extends Component {
                 How to add the Authenication to the actual code ? Very simple. Inside of the projects root folder I have added a text file called <span className="fonted text-primary">newappjs</span>. Replace the code in your ./src/app.js with this script. I have added notes that will explain the new script in detail and process that is taking place. After you do this you will need to save and refresh. You will be greeted by a AWS login for your application. Log in and take the next steps.
 
             </Card.Text>
-            <Link to='/stepthree'><Button success>
+            <Link to='/stepthree'>
+              <Button success>
             After the new app.js code has been inputed save and refresh.
             </Button>
             </Link>
