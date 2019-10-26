@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Trying to keep this short and simple as possible. It is a quick, hands on tutorial on using Amplify and AWS with React JS.
+
 ## Step by Step instuctions for using Amzon Web Services Amplify with React Js
 
 Just clone this project , open in your code editor and run npm install to download the dependicies. After that is complete just run NPM start , follow the directions starting from the landing page.
@@ -29,4 +31,6 @@ AWS Amplify. AWS Amplify is an open source JavaScript library provided by Amazon
 - How to use Dynamo DB.
 - How to use AWS CLI and the process of pushing changes to you AWS account setting.
 - How to host your app on a scalable platform used by Amzon , Uber.
+
+If you need help with set up or run into any issues email me at elementcoding300@gmail.com. I have tested this so any issues may come from aws set up.
 
